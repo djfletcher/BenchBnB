@@ -10,4 +10,5 @@ export const receiveBenches = benches => ({
 export const fetchBenches = () => dispatch => {
   return APIUtil.fetchBenches()
     .then(benches => dispatch(receiveBenches(benches)));
+    // .then(benches => console.log(benches));
 };

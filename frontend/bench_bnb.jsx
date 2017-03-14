@@ -11,6 +11,7 @@ window.signup = signup;
 window.login = login;
 window.logout = logout;
 window.fetchBenches = fetchBenches;
+window.receiveBenches = receiveBenches;
 
 document.addEventListener('DOMContentLoaded', () => {
   const root = document.getElementById('root');
